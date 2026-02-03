@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+
+}
+
+body {
+    background: var(--Yellow);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    background: var(--White);
+    width: 450px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid var(--Gray-950);
+    box-shadow: 8px 8px 8px 5px var(--Gray-950);
+}
+
+.logo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning {
+    font-weight: 800;
+    background: var(--Yellow);
+    color: var(--Gray-950);
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.date {
+    color: var(--Gray-950);
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: var(--Gray-950);
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--Yellow)
+}
+
+.txt {
+    color: var(--Gray-500);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.foto-perfil {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nome {
+    display: flex;
+    color: var(--Gray-950);
+    font-weight: 800;
+    align-items: center;
+}
+
